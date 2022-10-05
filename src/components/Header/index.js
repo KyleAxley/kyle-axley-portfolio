@@ -18,7 +18,7 @@ function Header() {
     }
   };
   return (
-    <div>
+    <div id="about">
       <header className="header">
         <Nav
           currentPage={currentPage}
