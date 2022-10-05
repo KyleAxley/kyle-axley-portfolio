@@ -3,7 +3,7 @@ import About from "../About";
 import Footer from "../Footer";
 import Nav from "../Nav";
 import Contact from '../Contact';
-// import Project from "../Project";
+import Project from "../Project";
 // import Resume from "../Resume";
 
 function Header() {
@@ -15,6 +15,9 @@ function Header() {
     }
     if (currentPage === "Contact") {
       return <Contact />
+    }
+    if (currentPage === "Project") {
+      return <Project />
     }
   };
   return (
