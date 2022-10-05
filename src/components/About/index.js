@@ -1,7 +1,6 @@
 import React from "react";
 import headshot from "../../assets/Kyle-Headshot3.jpg";
 
-
 function About() {
   return (
     <div>
