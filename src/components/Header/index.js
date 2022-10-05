@@ -19,12 +19,16 @@ function Header() {
   };
   return (
     <div>
-       <Nav
-        currentPage={currentPage}
-        handlePageChange={handlePageChange}
-      />
-      {renderPage()}
-      <Footer />
+      <header className="header">
+        <Nav
+          currentPage={currentPage}
+          handlePageChange={handlePageChange}
+        />
+      </header>
+      <main>
+        {renderPage()}
+        <Footer />
+      </main>
     </div>
   );
 }

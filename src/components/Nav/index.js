@@ -3,31 +3,31 @@ import React from "react";
 function Nav({ currentPage, handlePageChange }) {
   return (
     <nav>
-        <div>
-            <li className={currentPage === "About" ? "mx-2" : "mx-2"}>
+        <ul className="flex-row">
+            <li className={currentPage === "About" ? "mx-2 navActive" : "mx-2"}>
                 <span href="Portfolio" onClick={() => handlePageChange("About")}>
-                About
+                | About |
                 </span>
             </li>
-            |
-            <li className={currentPage === "Portfolio" ? "mx-2" : "mx-2"}>
+            
+            <li className={currentPage === "Portfolio" ? "mx-2 navActive" : "mx-2"}>
                 <span href="Portfolio" onClick={() => handlePageChange("Portfolio")}>
-                Portfolio
+               | Portfolio |
                 </span>
             </li>
-            |
-            <li className={currentPage === "Resume" ? "mx-2" : "mx-2"}>
+            
+            <li className={currentPage === "Resume" ? "mx-2 navActive" : "mx-2"}>
                 <span href="Resume" onClick={() => handlePageChange("Resume")}>
-                Resume
+                | Resume | 
                 </span>
             </li>
-            |
-            <li className={currentPage === "Contact" ? "mx-2" : "mx-2"}>
+            
+            <li className={currentPage === "Contact" ? "mx-2 navActive" : "mx-2"}>
                 <span href="Contact" onClick={() => handlePageChange("Contact")}>
-                Contact
+                | Contact |  
                 </span>
             </li>
-        </div>
+        </ul>
     </nav>
   );
 }
