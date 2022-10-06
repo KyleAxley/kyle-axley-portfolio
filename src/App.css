@@ -3,6 +3,7 @@
   --gold: rgb(238, 238, 7);
   --beige: #e7e6cf;
   --black: rgb(29, 35, 35);
+  --greyish: rgba(158, 158, 152, 0.466)
   
 }
 
@@ -23,8 +24,13 @@ body {
   display: inline-block;
   justify-content: center;
   inline-size: 1000px;
-  margin-bottom: 100px;
-  /* font-weight: bold; */
+  font-weight: bold;
+}
+
+#about-form{
+  background-color: var(--greyish);
+  border-radius: 10px;
+  margin-bottom: 40px;
 }
 
 .profilePic {
@@ -121,7 +127,7 @@ textarea {
 }
 
 #contact-form{
-  background-color: rgba(158, 158, 152, 0.466);
+  background-color: var(--greyish);
   border-radius: 10px;
   margin-bottom: 60px;
 }
@@ -136,6 +142,11 @@ textarea {
 
 /* Portfolio component styling */
 
+#portfolio-form{
+  background-color: var(--greyish);
+  border-radius: 10px;
+  margin-bottom: 60px;
+}
 
 .projects {
   margin-right: 100px;
@@ -165,6 +176,12 @@ textarea {
 }
 
 /* Resume component styling */
+
+#resume-form{
+  background-color: var(--greyish);
+  border-radius: 10px;
+  margin-bottom: 60px;
+}
 
 ol li{
   display: inline-block;

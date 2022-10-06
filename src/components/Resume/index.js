@@ -5,26 +5,26 @@ function Resume() {
         <section>
             <div>
                 <h1>Proficiencies</h1>
-                    <ol>
-                        <h3>Front-End</h3>
-                            <li>HTML</li>
-                            -
-                            <li>CSS</li>
-                            -
-                            <li>JavaScript</li>
-                            -
-                            <li>BootStrap</li>
-                            -
-                            <li>Materialize</li>
-                            -
-                            <li>Foundation CSS</li>
-                            -
-                            <li>React</li>
-                            - 
-                            <li>React-Bootstrap</li>
-                    </ol>
             </div>
-            <div>
+            <div id="resume-form">
+                <ol>
+                    <h3>Front-End</h3>
+                        <li>HTML</li>
+                        -
+                        <li>CSS</li>
+                        -
+                        <li>JavaScript</li>
+                        -
+                        <li>BootStrap</li>
+                        -
+                        <li>Materialize</li>
+                        -
+                        <li>Foundation CSS</li>
+                        -
+                        <li>React</li>
+                        - 
+                        <li>React-Bootstrap</li>
+                    </ol>
                 <ol>
                 <h3>Back-End</h3>
                     <li>NodeJs</li>
@@ -37,9 +37,6 @@ function Resume() {
                     -
                     <li>REST</li>
                 </ol>
-            </div>
-
-            <div>
                 <ol>
                 <h3>Database</h3>
                     <li>MySQL</li>
@@ -54,7 +51,6 @@ function Resume() {
                     -
                     <li>GraphQl</li>
                 </ol>
-            </div>
             <div className="resume-title">
                 <h3>Download My Resume Here</h3>
             </div>
@@ -63,6 +59,7 @@ function Resume() {
                     <br></br>
                     <button className="download-btn">Download Resume</button>
                 </a>
+            </div>
             </div>
         </section>
     )

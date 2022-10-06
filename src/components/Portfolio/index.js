@@ -48,11 +48,11 @@ function Portfolio() {
     ];
 
     return (
-        <section>
+        <section >
             <div>
                 <h1>Portfolio</h1>
             </div>
-            <div>
+            <div id="portfolio-form">
                 <ul className='flex-row'>
                     <li className="projects">
                         <Project projects={projects[0]}></Project>
