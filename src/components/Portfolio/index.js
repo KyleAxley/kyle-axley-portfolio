@@ -13,27 +13,37 @@ function Portfolio() {
         {
             name: "AstroWatch.io",
             description: "What's in your sky viewer application",
-            image: 'Astrowatch.io2.png'
+            image: 'Astrowatch.io2.png',
+            deployed: "https://devbritt.github.io/fabulous-flamingos/",
+            github: "https://github.com/devBritt/fabulous-flamingos"
         },
         {
-            name: "AstroWatch.io",
-            description: "What's in your sky viewer application",
-            image: 'Astrowatch.io2.png'
+            name: "Poké TeamWise",
+            description: "Pokémon Random Team generator Application.",
+            image: 'Poke TeameWise2.png',
+            deployed: "https://secure-chamber-40035.herokuapp.com/",
+            github: "https://github.com/devBritt/poke-teamwise"
         },
         {
-            name: "AstroWatch.io",
-            description: "What's in your sky viewer application",
-            image: 'Astrowatch.io2.png'
+            name: "Work Day Scheduler",
+            description: "A simple work day scheduler application",
+            image: 'Work Day Scheduler SS2.png',
+            deployed: "https://kyleaxley.github.io/Work-Day-Scheduler/",
+            github: "https://github.com/KyleAxley/Work-Day-Scheduler"
         },
         {
-            name: "AstroWatch.io",
-            description: "What's in your sky viewer application",
-            image: 'Astrowatch.io2.png'
+            name: "Weather Dashboard",
+            description: "Weather dashboard application",
+            image: 'WeatherCompanion.png',
+            deployed: "https://kyleaxley.github.io/Weather-Companion/",
+            github: "https://github.com/KyleAxley/Weather-Companion"
         },
         {
-            name: "AstroWatch.io",
-            description: "What's in your sky viewer application",
-            image: 'Astrowatch.io2.png'
+            name: "My First Portfolio",
+            description: "First portfolio made at begging of the bootcamp",
+            image: 'myportfolio.png',
+            deployed: "https://kyleaxley.github.io/My-Portfolio-/",
+            github: "https://github.com/KyleAxley/My-Portfolio-"
         }
     ];
 
@@ -51,16 +61,16 @@ function Portfolio() {
                         <Project projects={projects[1]}></Project>
                     </li>
                     <li className="projects">
-                        <Project projects={projects[0]}></Project>
+                        <Project projects={projects[2]}></Project>
                     </li>
                     <li className="projects">
-                        <Project projects={projects[1]}></Project>
+                        <Project projects={projects[3]}></Project>
                     </li>
                     <li className="projects">
-                        <Project projects={projects[0]}></Project>
+                        <Project projects={projects[4]}></Project>
                     </li>
                     <li className="projects">
-                        <Project projects={projects[1]}></Project>
+                        <Project projects={projects[5]}></Project>
                     </li>
                 </ul>
             </div>

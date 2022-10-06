@@ -25,7 +25,7 @@ function Projects (props) {
                     </Card.Link>
                     
                     <Card.Link className="links" href={github}>
-                       | Github |
+                       | GitHub Repo |
                     </Card.Link>
                 </Card.Body>
             </div>
