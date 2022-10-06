@@ -133,5 +133,20 @@ ol h3{
 
 .resume{
   padding-top: 10px;
-  padding-bottom: 90px;
+  padding-bottom: 40px;
+}
+
+.download-btn{
+  background-color: var(--beige);
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.download-btn :hover{
+  background-color: var(--gold);
 }

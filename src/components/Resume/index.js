@@ -56,8 +56,10 @@ function Resume() {
                 </ol>
             </div>
             <div className='resume'>
-                <a href={require("../../assets/resume/resume.pdf")} download>
                     <strong>Download My Resume Here</strong>
+                <a href={require("../../assets/resume/KyleA.Resume.pdf")} download>
+                    <br></br>
+                    <button className="download-btn">Download Resume</button>
                 </a>
             </div>
         </section>
