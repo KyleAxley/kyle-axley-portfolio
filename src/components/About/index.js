@@ -5,13 +5,13 @@ function About() {
   return (
     <div>
       <section id="about">
-        <h1>Kyle | Axley | Anderson</h1>
+      <h1>Kyle | Axley | Anderson</h1>
         <img
           src={headshot}
           className="profilePic"
           alt="Kyle Axley Anderson"
         ></img>
-        <p>Full-stack web developer</p>
+        <p className="title">Full-stack web developer</p>
 
         <strong>About | Me</strong>
         <p>

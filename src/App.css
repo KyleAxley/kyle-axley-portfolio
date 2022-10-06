@@ -3,6 +3,7 @@
   --gold: rgb(238, 238, 7);
   --beige: #e7e6cf;
   --black: rgb(29, 35, 35);
+  
 }
 
 body {
@@ -27,7 +28,13 @@ body {
 }
 
 .profilePic {
-  border-radius: 100px;
+  margin-top: 20px;
+  border-radius: 80px;
+}
+
+.title {
+  margin-top: -8px;
+  margin-bottom: 50px;
 }
 
 
@@ -81,11 +88,50 @@ textarea {
 
 .email{
   margin-right: 55px;
+  color: var(--black);
+}
+
+.name{
+  color: var(--black);
+}
+
+
+.message{
+  color: var(--black);
+}
+#input-area{
+  background-color: var(--beige);
+  border-radius: 10px;
+}
+
+.submit-btn {
+  background-color: var(--beige);
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .input-title{
   font-weight: bold;
   padding: 50px;
+}
+
+#contact-form{
+  background-color: rgba(158, 158, 152, 0.466);
+  border-radius: 10px;
+  margin-bottom: 60px;
+}
+
+.email-link {
+  color: var(--gold);
+  margin-right: 8px;
+  margin-left: 8px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 /* Portfolio component styling */
@@ -108,6 +154,7 @@ textarea {
   color: var(--gold);
   margin-right: 8px;
   margin-left: 8px;
+  font-weight: bold;
 }
 
 .links :hover{

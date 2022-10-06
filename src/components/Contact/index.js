@@ -44,31 +44,32 @@ function Contact() {
             </div>
             <div>
                 <form id="contact-form" onSubmit={handleSubmit} className="input-title">
-                    <div>
-                        <label htmlFor="name">Name:</label>
-                        <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+                    <div className="name">
+                        <label htmlFor="name" id="name">Name:</label>
+                        <input type="text" name="name" defaultValue={name} onBlur={handleChange} id="input-area" />
                     </div>
 
                     <div className="email">
                         <label htmlFor="email" >Email address:</label>
-                        <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+                        <input type="email" name="email" defaultValue={email} onBlur={handleChange} id="input-area" />
                     </div>
 
-                    <div>
+                    <div className="message">
                         <label htmlFor="message">Message:</label>
-                        <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+                        <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} id="input-area"  />
                     </div>
                     {errorMessage && (
                         <div>
                         <p className="error-text">{errorMessage}</p>
                         </div>
                     )}
-                    <button type="submit">Submit</button>
+                    <button type="submit" className="submit-btn">Submit</button>
                 </form>
-                <a href="mailto:Kanderson7645@yahoo.com?body=My email" className="links"
-                    >
-                    Kyle Anderson Email
-                    </a>
+                <div>
+                    <a href="mailto:Kanderson7645@yahoo.com?body=My email"className="email-link">
+                    Kyle Anderson Email (use this for now)
+                        </a>
+                </div>
             </div>
       </section>
     )
