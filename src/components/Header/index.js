@@ -4,7 +4,7 @@ import Footer from "../Footer";
 import Nav from "../Nav";
 import Contact from '../Contact';
 import Portfolio from "../Portfolio";
-// import Resume from "../Resume";
+import Resume from "../Resume";
 
 function Header() {
   const [currentPage, handlePageChange] = useState("About")
@@ -18,6 +18,9 @@ function Header() {
     }
     if (currentPage === "Portfolio") {
       return <Portfolio />
+    }
+    if (currentPage === "Resume") {
+      return <Resume />
     }
   };
   return (
