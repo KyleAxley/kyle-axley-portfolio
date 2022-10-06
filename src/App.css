@@ -80,3 +80,9 @@ textarea {
   max-height: 300px;
 }
 
+.links {
+  color: var(--gold);
+  margin-right: 10px;
+  margin-left: 10px;
+}
+

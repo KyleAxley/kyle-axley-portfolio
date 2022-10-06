@@ -6,7 +6,9 @@ function Portfolio() {
         {
             name: "Tech-Blog",
             description: "Social networking app for tech blog",
-            image: 'Tech-Blog.png'
+            image: 'Tech-Blog.png',
+            deployed: "https://secure-journey-65345.herokuapp.com/",
+            github: "https://github.com/KyleAxley/Tech-Blog"
         },
         {
             name: "AstroWatch.io",

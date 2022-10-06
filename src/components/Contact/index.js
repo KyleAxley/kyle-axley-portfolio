@@ -65,7 +65,7 @@ function Contact() {
                     )}
                     <button type="submit">Submit</button>
                 </form>
-                <a href="mailto:Kanderson7645@yahoo.com?body=My email"
+                <a href="mailto:Kanderson7645@yahoo.com?body=My email" className="links"
                     >
                     Kyle Anderson Email
                     </a>

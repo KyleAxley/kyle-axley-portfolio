@@ -6,6 +6,8 @@ function Projects (props) {
     const name = portProject.name;
     const description = portProject.description;
     const image = portProject.image;
+    const deployed = portProject.deployed;
+    const github = portProject.github;
 
     return(
         <Card style={{ width: "18rem"}}>
@@ -18,6 +20,13 @@ function Projects (props) {
                     <Card.Text>
                         {description}
                     </Card.Text>
+                    <Card.Link className="links" href={deployed}>
+                       | {name} |
+                    </Card.Link>
+                    
+                    <Card.Link className="links" href={github}>
+                       | Github |
+                    </Card.Link>
                 </Card.Body>
             </div>
         </Card>

@@ -6,11 +6,11 @@ function Footer() {
              <p>Checkout my GitHub and LinkedIn profile</p>
                 <p className="links">
                     | Git hub: | {" "}
-                    <a href="https://github.com/KyleAxley">
+                    <a href="https://github.com/KyleAxley" className="links">
                     KyleAxley 
                     </a>
                     | LinkedIn: | {" "}
-                    <a href="https://www.linkedin.com/in/kyle-anderson-36300192/"
+                    <a href="https://www.linkedin.com/in/kyle-anderson-36300192/" className="links"
                     >
                     Kyle Anderson
                     </a>
