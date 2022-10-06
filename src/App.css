@@ -17,10 +17,21 @@ body {
   text-align: center;
 }
 
+/* about me styling, id used for each page as well */
+#about {
+  display: inline-block;
+  justify-content: center;
+  inline-size: 1000px;
+  margin-bottom: 100px;
+  /* font-weight: bold; */
+}
+
 .profilePic {
   border-radius: 100px;
 }
 
+
+/* header/nav links styling */
 header {
 	display: inline-block;
 	justify-content: center;
@@ -38,6 +49,7 @@ ul li {
   display: inline-block;
   margin-right: 30px;
   cursor: pointer;
+  font-weight: bold;
 }
 
 .nav-links :hover{
@@ -47,6 +59,7 @@ ul li {
   font-weight: bold;
 }
 
+/* footer styling */
 footer{
   position: sticky;
   display: inline-block;
@@ -55,16 +68,9 @@ footer{
   inline-size: 1000px;
 }
 
-#about {
-  display: inline-block;
-  justify-content: center;
-  inline-size: 1000px;
-  margin-bottom: 100px;
-  /* font-weight: bold; */
-}
-
+/* Contact component styling */
 p {
-  margin-top: 0px; 
+  margin-top: 20px; 
 }
 
 textarea {
@@ -82,10 +88,8 @@ textarea {
   padding: 50px;
 }
 
-.card-body{
-  display: inline-block;
-  justify-content: center;
-}
+/* Portfolio component styling */
+
 
 .projects {
   margin-right: 100px;
@@ -113,3 +117,21 @@ textarea {
   font-weight: bold;
 }
 
+/* Resume component styling */
+
+ol li{
+  display: inline-block;
+  padding: 8px;
+  margin-top: 1px;
+  padding-right: 10px;
+}
+
+ol h3{
+  margin-bottom: -10px;
+  margin-right: 40px;
+}
+
+.resume{
+  padding-top: 10px;
+  padding-bottom: 90px;
+}

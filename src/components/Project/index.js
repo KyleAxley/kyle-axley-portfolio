@@ -11,7 +11,7 @@ function Projects (props) {
 
     return(
         <Card style={{ width: "25rem"}}>
-            <Card.Img className="image" src={require(`../../assets/${image}`)}></Card.Img>
+            <Card.Img className="image" src={require(`../../assets/images/${image}`)}></Card.Img>
             <div className="card-body">
                 <Card.Body>
                     <Card.Title>
