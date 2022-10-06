@@ -10,12 +10,12 @@ function Projects (props) {
     const github = portProject.github;
 
     return(
-        <Card style={{ width: "18rem"}}>
+        <Card style={{ width: "25rem"}}>
             <Card.Img className="image" src={require(`../../assets/${image}`)}></Card.Img>
             <div className="card-body">
                 <Card.Body>
                     <Card.Title>
-                        {name}
+                       <strong>{name}</strong> 
                     </Card.Title>
                     <Card.Text>
                         {description}
@@ -23,7 +23,6 @@ function Projects (props) {
                     <Card.Link className="links" href={deployed}>
                        | {name} |
                     </Card.Link>
-                    
                     <Card.Link className="links" href={github}>
                        | GitHub Repo |
                     </Card.Link>

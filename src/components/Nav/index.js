@@ -3,7 +3,7 @@ import React from "react";
 function Nav({ currentPage, handlePageChange }) {
   return (
     <nav>
-        <ul className="flex-row">
+        <ul className="nav-links">
             <li className={currentPage === "About" ? "mx-2 navActive" : "mx-2"}>
                 <span href="Portfolio" onClick={() => handlePageChange("About")}>
                 | About |
