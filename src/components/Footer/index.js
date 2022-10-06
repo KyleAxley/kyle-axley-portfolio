@@ -3,7 +3,7 @@ import React from 'react';
 function Footer() {
     return(
         <footer>
-             <p>Please checkout my current projects and LinkedIn profile</p>
+             <p>Checkout my GitHub and LinkedIn profile</p>
                 <p className="links">
                     | Git hub: | {" "}
                     <a href="https://github.com/KyleAxley">

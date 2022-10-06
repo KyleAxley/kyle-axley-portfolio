@@ -11,7 +11,27 @@ function Portfolio() {
         {
             name: "AstroWatch.io",
             description: "What's in your sky viewer application",
-            image: 'Astrowatch.io.png'
+            image: 'Astrowatch.io2.png'
+        },
+        {
+            name: "AstroWatch.io",
+            description: "What's in your sky viewer application",
+            image: 'Astrowatch.io2.png'
+        },
+        {
+            name: "AstroWatch.io",
+            description: "What's in your sky viewer application",
+            image: 'Astrowatch.io2.png'
+        },
+        {
+            name: "AstroWatch.io",
+            description: "What's in your sky viewer application",
+            image: 'Astrowatch.io2.png'
+        },
+        {
+            name: "AstroWatch.io",
+            description: "What's in your sky viewer application",
+            image: 'Astrowatch.io2.png'
         }
     ];
 
@@ -21,7 +41,19 @@ function Portfolio() {
                 <h1>Portfolio</h1>
             </div>
             <div>
-                <ul>
+                <ul className='flex-row'>
+                    <li className="projects">
+                        <Project projects={projects[0]}></Project>
+                    </li>
+                    <li className="projects">
+                        <Project projects={projects[1]}></Project>
+                    </li>
+                    <li className="projects">
+                        <Project projects={projects[0]}></Project>
+                    </li>
+                    <li className="projects">
+                        <Project projects={projects[1]}></Project>
+                    </li>
                     <li className="projects">
                         <Project projects={projects[0]}></Project>
                     </li>
