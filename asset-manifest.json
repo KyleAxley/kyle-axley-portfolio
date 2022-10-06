@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/kyle-axley-portfolio/static/css/main.7cb3a34a.css",
+    "main.js": "/kyle-axley-portfolio/static/js/main.190bfbda.js",
+    "static/js/787.c74a25d0.chunk.js": "/kyle-axley-portfolio/static/js/787.c74a25d0.chunk.js",
+    "static/media/myportfolio.png": "/kyle-axley-portfolio/static/media/myportfolio.86597ead5395bfb5ba87.png",
+    "static/media/Astrowatch.io2.png": "/kyle-axley-portfolio/static/media/Astrowatch.io2.41efa25881958b873089.png",
+    "static/media/react-portfolio.png": "/kyle-axley-portfolio/static/media/react-portfolio.39b82b3ef6e75e4df229.png",
+    "static/media/Poke TeameWise.png": "/kyle-axley-portfolio/static/media/Poke TeameWise.2f2da24fd7a9a8517185.png",
+    "static/media/WeatherCompanion.png": "/kyle-axley-portfolio/static/media/WeatherCompanion.5af167daf4132fbbffb8.png",
+    "static/media/Poke TeameWise2.png": "/kyle-axley-portfolio/static/media/Poke TeameWise2.96f6337b3071bff01bf0.png",
+    "static/media/Work Day Scheduler SS2.png": "/kyle-axley-portfolio/static/media/Work Day Scheduler SS2.6d10795f28db61657eed.png",
+    "static/media/KyleA.Resume.pdf": "/kyle-axley-portfolio/static/media/KyleA.Resume.7d1f89393ba3d0b0be7c.pdf",
+    "static/media/CodingQuiz.png": "/kyle-axley-portfolio/static/media/CodingQuiz.d97dbb9749fdfbcbc1a4.png",
+    "static/media/Kyle-Headshot3.jpg": "/kyle-axley-portfolio/static/media/Kyle-Headshot3.1adbcf6633f3808f6c40.jpg",
+    "static/media/Tech-Blog.png": "/kyle-axley-portfolio/static/media/Tech-Blog.0d42b0c7540ed927f0e2.png",
+    "index.html": "/kyle-axley-portfolio/index.html",
+    "main.7cb3a34a.css.map": "/kyle-axley-portfolio/static/css/main.7cb3a34a.css.map",
+    "main.190bfbda.js.map": "/kyle-axley-portfolio/static/js/main.190bfbda.js.map",
+    "787.c74a25d0.chunk.js.map": "/kyle-axley-portfolio/static/js/787.c74a25d0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7cb3a34a.css",
+    "static/js/main.190bfbda.js"
+  ]
+}
