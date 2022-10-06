@@ -30,7 +30,8 @@ body {
 #about-form{
   background-color: var(--greyish);
   border-radius: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .profilePic {
@@ -129,7 +130,8 @@ textarea {
 #contact-form{
   background-color: var(--greyish);
   border-radius: 10px;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .email-link {
@@ -145,7 +147,8 @@ textarea {
 #portfolio-form{
   background-color: var(--greyish);
   border-radius: 10px;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .projects {
@@ -180,7 +183,8 @@ textarea {
 #resume-form{
   background-color: var(--greyish);
   border-radius: 10px;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 ol li{
