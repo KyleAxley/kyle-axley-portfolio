@@ -13,10 +13,10 @@ This is my newest portfolio built with React. In my portfolio contains component
 
 
 ### Deployed Link
-
+https://kyleaxley.github.io/kyle-axley-portfolio/
 
 ### Preview
-<img src="../kyle-axley-portfolio/src/assets/images/react-portfolio.png">
+![react-portfolio](https://user-images.githubusercontent.com/103543572/194336122-3cdb984d-b44e-420f-8d73-c108cff38dbb.png)
 
 ### Lessons learned
 This was our first react challenge and at first it was rather intimidating but once I started to get the hang of the work flow, it became fluid. It is easy to understand nowwhy React is so widely used.
