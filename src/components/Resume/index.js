@@ -55,8 +55,10 @@ function Resume() {
                     <li>GraphQl</li>
                 </ol>
             </div>
+            <div className="resume-title">
+                <h3>Download My Resume Here</h3>
+            </div>
             <div className='resume'>
-                    <strong>Download My Resume Here</strong>
                 <a href={require("../../assets/resume/KyleA.Resume.pdf")} download>
                     <br></br>
                     <button className="download-btn">Download Resume</button>

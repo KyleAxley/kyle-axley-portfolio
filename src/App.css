@@ -55,7 +55,7 @@ ul li {
 .nav-links :hover{
   background-color: var(--beige);
   color: var(--black);
-  border-radius: 10px;
+  border-radius: 5px;
   font-weight: bold;
 }
 
@@ -113,7 +113,7 @@ textarea {
 .links :hover{
   background-color: var(--beige);
   color: var(--black);
-  border-radius: 10px;
+  border-radius: 5px;
   font-weight: bold;
 }
 
@@ -136,17 +136,25 @@ ol h3{
   padding-bottom: 40px;
 }
 
+.resume-title{
+  margin-bottom: -70px;
+  padding-bottom: 0px;
+}
+
 .download-btn{
-  background-color: var(--beige);
+  background-color: var(--gold);
   width: 250px;
   height: 40px;
-  border-radius: 10px;
+  border-radius: 5px;
   font-family: "Alumni Sans Pinstripe", sans-serif;
   font-size: x-large;
   font-weight: bold;
   cursor: pointer;
 }
 
-.download-btn :hover{
-  background-color: var(--gold);
+.resume :hover{
+  background-color: var(--beige);
+  color: var(--black);
+  border-radius: 5px;
+  font-weight: bolder;
 }
